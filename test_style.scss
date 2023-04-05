@@ -1,0 +1,29 @@
+/*Sass is a stylesheet language that’s compiled to CSS. It allows you to use variables, nested rules, mixins, functions, and more, all with a fully CSS-compatible syntax. Sass helps keep large stylesheets well-organized and makes it easy to share design within and across projects. 
+
+<sass --watch style.scss:compile.css> */
+
+$color: black;
+
+h1{
+   font-size: 50px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bold;
+   color: $color;
+   text-align: center;
+   height: 50px;
+  
+}
+
+div {
+   font-size: 30px;
+   font-style: oblique;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: $color;
+   text-align: start; 
+   background-color: rgb(99, 99, 236);
+   width: 200px;
+   height: 600px;
+   padding: 25px;
+   margin: 2px;
+
+}
